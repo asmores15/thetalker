@@ -1,1 +1,7 @@
-The Talker
+How It Works
+---------------
+The talking device will have a microcontroller, an RFID/NFC scanner, a rotary encoder, an LCD screen, a rechargeable battery, and an SD card. 
+The NFC tags will be located on a bracelet the user will wear. Since this is designed with small children in mind, the tag is very small (9 mm diameter) and will be a charm on a charm bracelet. The idea right now is to use blank bevel charms (12 mm diameter) and apply the tag to the bottom of the charm, put a picture that conveys a message (ex. a picture of an apple) on top, and then seal them inside with the bevel top. The charm will then be affixed to a charm bracelet.
+
+The bracelet is worn by the user and when they want to say something, they will simply look at their bracelet, find the charm with the message they want to say, and hold it to the scanner. The device will check the SD card for the recording that matches the ID of the tag and output it through the speaker. The message will also be displayed as text on the screen.
+To program the device with the NFC tag IDs, the screen and rotary encoder are used. The user will be able to navigate a menu and be able to match the tags to the proper recording. I'm still trying to plan this part out, which is why the explanation isn't very clear.
